@@ -20,6 +20,7 @@ local function error_(message)
   print("Press any key to exit")
   io.read()
   os.exit()
+  return
 end
 
 if not component.isAvailable("nc_fission_reactor") then
