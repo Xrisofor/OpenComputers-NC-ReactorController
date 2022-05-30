@@ -55,9 +55,10 @@ local function reboot_screen()
 end
 
 local function download(url, filename)
+  fs.makeDirectory("/ReactorController")
   local f, reason = io.open(filename, "w")
   if not f then
-    error_("Failed opening file for  writing: "..reason)
+    error_("Failed opening file for writing: "..reason)
   end
 
   term.clear()
@@ -84,7 +85,6 @@ local function install_screen()
   term.clear()
   print("Welcome to Reactor Controller Installer!")
   print("")
-  fs.makeDirectory("/ReactorController")
   download("autorun.lua", "/ReactorController/autorun.lua")
   download("reactor.lua", "/ReactorController/reactor.lua")
   os.sleep(1.5)
