@@ -1,14 +1,17 @@
-## About
+### 👽 About:
 
-Reactor Controller is a reactor control program from the <a href="https://minecraft-inside.ru/mods/51019-nuclearcraft.html">Nuclear Craft</a> mod
+Reactor controller is a small program for the <a href="https://minecraft-inside.ru/mods/10285-opencomputers-mod.html">OpenComputers</a> mod from Minecraft that allows you to control the reactor from the <a href="https://minecraft-inside.ru/mods/51019-nuclearcraft.html">Nuclear Craft</a> mod.
 
-List of main features:
+---
 
-- Switching on the reactor
-- Reactor shutdown
+### 🎈 Program Features:
+
 - Reactor status information
+- Switching on and off the reactor
 
-## How to install?
+---
+
+### 💻 How to install?
 
 The easiest way is to use the default **wget** script. Insert the open floppy disk into the computer, insert the internet card, turn on the computer and enter the following into the console to install Reactor Controller:
 
